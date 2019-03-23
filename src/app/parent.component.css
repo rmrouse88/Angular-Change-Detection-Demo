@@ -1,0 +1,13 @@
+:host{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  padding: 30px;
+  
+}
+
+.main-container{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}

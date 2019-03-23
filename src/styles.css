@@ -1,0 +1,46 @@
+/* Add application styles & imports to this file! */
+
+.special{
+  animation-name: my-animation;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out
+}
+@keyframes my-animation {
+  0% {
+    background: cornflowerblue;
+  }
+
+  50% {
+    background: yellow;
+  }
+
+  100% {
+    background: cornflowerblue;
+  }
+}
+
+.other-special{
+  animation-name: other-animation;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out
+}
+@keyframes other-animation {
+  0% {
+    background: cornflowerblue;
+  }
+
+  50% {
+    background: yellow;
+  }
+
+  100% {
+    background: cornflowerblue;
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
